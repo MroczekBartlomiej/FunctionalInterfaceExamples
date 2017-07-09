@@ -16,7 +16,7 @@ public class FunctionalInterface {
             String result = "Number is zero.";
             if (f > 0) {
                 result = "Number is bigger than zero.";
-            }else if(f <0){
+            } else if (f < 0) {
                 result = "Number is smaller than zero.";
             }
             return result;
